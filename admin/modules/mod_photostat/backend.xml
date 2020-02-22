@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backend>
+    <module>
+        <id>mod_statistic</id>
+        <title>Статистика для фотосайта</title>
+    </module>
+    <params>
+        <param type="flag" name="show_users" title="Показывать Количество пользователей" default="on" />
+        <param type="flag" name="showuc" title="Показывать Количество записей УК" default="on" />
+        <param type="flag" name="show_photos" title="Показывать Количество фотографий в фотогалерее" default="on" />
+        <param type="flag" name="show_photos_size" title="Показывать Размер папки images/photos" default="on" />
+        <param type="flag" name="show_sometext" title="Показывать Произвольный текст" default="on" />
+        <param type="string" name="sometext" title="Произвольный текст - содержание" default="" />
+    </params>
+</backend>
